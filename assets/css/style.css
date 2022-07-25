@@ -199,8 +199,40 @@ body {
     color: white;
   }
   
-
+  @media screen and (max-width:1028px){
+    .conntainer {
+      width: 90vw;
+        height: 51vh;
+        color: white;
+        transition: all 0.3s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/card.webp) center center;
+        background-size: cover;
+    }
+  }
   
+
+  @media screen and (max-width:720px) {
+    .conntainer {
+      width: 90%;
+        height: 50%;
+        color: white;
+        transition: all 0.3s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../images/card.webp) center center;
+        background-size: cover;
+    }
+  }
+  
+   
  
  
 @media screen and (max-width:510px) {
