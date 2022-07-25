@@ -105,3 +105,9 @@ body {
 .hide{
     display: none;
 }  
+
+#question{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5em;
+  }
