@@ -79,7 +79,7 @@ body {
     align-items: center;
     margin-top: 0.8rem;
   }
-  .start-btn{
+  .start-btn, .next-btn, .end-btn{
   font-size: 1.5rem;
   font-weight: bolder;
   text-decoration: none;
