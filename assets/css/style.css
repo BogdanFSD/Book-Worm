@@ -2,7 +2,7 @@
 
 *{
     box-sizing: border-box;
-    font-family: Gotham Rounded;
+    
   }
   
   
@@ -14,7 +14,6 @@ body {
     justify-content: center;
     display: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
   }
   
   .container {
