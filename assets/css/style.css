@@ -3,8 +3,6 @@
 *{
     box-sizing: border-box;
     font-family: 'Goudy Bookletter 1911', serif;;
-    padding: 0;
-    margin: 0;
 }
 
 body {
@@ -73,13 +71,19 @@ body {
     background-color: #562c2d;
   }
 
+  .btn-playy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .controls {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 0.8rem;
   }
-  .start-btn, .next-btn, .end-btn{
+  .start-btn, .next-btn, .end-btn, .btn-play{
   font-size: 1.5rem;
   font-weight: bolder;
   text-decoration: none;
