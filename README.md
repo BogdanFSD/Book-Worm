@@ -25,7 +25,7 @@
 * [**Design**](<#design>)
   * [**Fonts**](<#fonts>)
   * [**Colors**](<#colors>)
-  * [**Images & Video**](<#images-video>)
+  * [**Images**](<#images>)
   * [**Structure**](<#structure>)
 * [**Features**](<#features>)
   * [**Future Features**](<#future-features>)
@@ -34,10 +34,8 @@
   * [**Languages**](<#languages>)
 * [**Testing**](<#testing>)
   * [**Code Validation**](<#code-validation>)
-  * [**Responsive**](<#responsive>)
-  * [**User Story Testing**](<#user-story-testing>)
-  * [**Bugs Fixed**](<#bugs-fixed>)
   * [**Deployment**](<#deployment>)
+*[**Credits**](<#credits>)
 
 
 
@@ -105,9 +103,9 @@ This quiz all way long in a bit dark colors just what readers would like to have
 [Back to menu](#contents)
 
 
-### **Images & Video**
+### **Images**
 
-All images I too from [Unsplash](https://unsplash.com/). Found background of openned book and letters in the midle complement the quiz and each other. As well creates great atmosphere that you can have only with opened book in your hand.
+All images I took from [Unsplash](https://unsplash.com/). Found background of openned book and letters in the midle complement the quiz and each other. As well creates great atmosphere that you can have only with opened book in your hand.
 
 [Back to menu](#contents)
 
@@ -193,6 +191,9 @@ Everything starts from landing page where User can find the name of the Quiz and
 
 ## **Testing**
 
+### **Code Validation**
+
+
 ### **HTLM Validation**
 
 The HTML was validated [W3C Markup Validation Service](https://validator.w3.org/) I got one mispelling of "classs" as soon as I changed that no problems.
@@ -220,6 +221,8 @@ With the help of Lighthouse from Chrome Development tool I made an inspectin. Ba
 
 ![Perfomance Result](assets/images/lighthouse.jpg)
 
+[Back to menu](#contents)
+
 ### **Deployment**
 
 * Inside Github find repositories, and click on Book-Worm
@@ -228,6 +231,9 @@ With the help of Lighthouse from Chrome Development tool I made an inspectin. Ba
 * in drop-menu select Main Branch
 * Once selected Main Branch the webpage will refresh and provide you a link of deployed project
 * Site will locate [here](https://bogdanfsd.github.io/Book-Worm/)
+
+
+[Back to menu](#contents)
 
 ## **Credits**
 
