@@ -1,9 +1,11 @@
  # Book Worm Quiz
 
- ![](img/mock_up.png)
+ ![Responsive](assets/images/mockup.jpg)
 
 
  ## Purpose of the Project
+
+ [Link to Live Site Here](https://bogdanfsd.github.io/Book-Worm/)
 
  Main idea was to create an webpage with interactivity using HTML, CSS, JavaScript. For this reason I picked up a topic of books. Idea of quiz straightforward to check how familiar user are with the stories of the most popular books like Harry Potter, Lord of the rings, The Great Gatsby etc.
 
@@ -191,13 +193,41 @@ Everything starts from landing page where User can find the name of the Quiz and
 
 ## **Testing**
 
-### **Code Validation**
+### **HTLM Validation**
+
+The HTML was validated [W3C Markup Validation Service](https://validator.w3.org/) I got one mispelling of "classs" as soon as I changed that no problems.
+
+![HTML Validation Result](assets/images/htmlvalid.jpg)
 
 
+### **CSS Validation**
+
+The CSS was walidated [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator). I got an erro as I didn't linked correctly stylesheets to HTML.index file. No problems in general
+
+![CSS Validation Result](assets/images/cssvalid.jpg)
+
+### **JavaScript Validation**
+
+Document been validated by [JSHint](https://jshint.com/) and received missing semicolon and that's was it. To avoid some warnings from JSHint I used following
+
+- /* jshint esversion: 8 */ for the ES6 to accept const and other features 
+
+![JSHint Validation Result](assets/images/jshint.jpg)
+
+### **Perfomance and Accessibility Testing**
+
+With the help of Lighthouse from Chrome Development tool I made an inspectin. Background images been converted to .webp using [cloud convert](https://cloudconvert.com/)
+
+![Perfomance Result](assets/images/lighthouse.jpg)
 
 ### **Deployment**
 
-
+* Inside Github find repositories, and click on Book-Worm
+* Next click on Settings
+* On left-hand side locate Pages and click on it
+* in drop-menu select Main Branch
+* Once selected Main Branch the webpage will refresh and provide you a link of deployed project
+* Site will locate [here](https://bogdanfsd.github.io/Book-Worm/)
 
 ## **Credits**
 

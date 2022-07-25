@@ -24,11 +24,11 @@ nextBtn.addEventListener('click', () => {
 function startGame() {
   startBtn.classList.add('hide');
   mainContainer.classList.add('hide');
-  newgame.classList.add('hide')
+  newgame.classList.add('hide');
   endContainer.classList.add('hide');
   Gamerules.classList.add('hide');
   nextBtn.classList.remove('hide');
-  mixQuestion = questions.sort(() => Math.random() - .5);
+  mixQuestion = questions.sort(() => Math.random() - 0.5);
   QuestionIndex = 0;
   questionContainer.classList.remove('hide');
   setNextQuestion();
