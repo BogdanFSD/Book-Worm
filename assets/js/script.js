@@ -25,11 +25,16 @@ function startGame() {
 }
 
 function  setNextQuestion(){
-
+    resetState();
+    showQuestion(mixQuestion[QuestionIndex]);
 }
 
 function resetState(){
-
+    clearStatusClass(document.body);
+    nextBtn.classList.add('hide');
+    while (answerBtnEl.firstChild) {
+      answerBtnEl.removeChild(answerBtnEl.firstChild);
+    }
 }
 
 function showQuestion(){
