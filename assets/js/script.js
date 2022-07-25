@@ -4,9 +4,10 @@ const startBtn = document.getElementById('start-btn');
 const questionContainer = document.querySelector('.question-container');
 const mainContainer = document.querySelector('.container');
 const nextBtn = document.getElementById('next-btn');
+const endBtn =document.getElementById('end-btn');
 
 
-startBtn.addEventListener('click', startGame);
+startBtn.addEventListener('click', gameRules)
 
 nextBtn.addEventListener('click', () => {
     QuestionIndex++;
@@ -23,6 +24,12 @@ function startGame() {
     QuestionIndex = 0;
     setNextQuestion();
 }
+function gameRules (){
+    Gamerules.classList.remove('hide');
+    mainContainer.classList.add('hide');
+    endContainer.classList.add('hide');
+    endBtn.classList.add('hide'); 
+  } 
 
 function  setNextQuestion(){
     resetState();
@@ -37,9 +44,18 @@ function resetState(){
     }
 }
 
-function showQuestion(){
-
-}
+function showQuestion(question) {
+    questionEl.innerText = question.question;
+  question.answers.forEach(answer => {
+    const button = document.createElement('button');
+    button.innerText = answer.text;
+    button.classList.add('btn');
+    if (answer.correct) {
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener('click', selectAnswer);
+    answerBtnEl.appendChild(button);
+  });
 
 function setStatusClass(element, correct) {
     clearStatusClass(element);
@@ -93,3 +109,4 @@ function setStatusClass(element, correct) {
       ]
     },
   ];
+}
