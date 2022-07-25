@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <meta name="description" content="Book Worm QUIZ">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Book Worm QUIZ">
     <meta name="keywords" content="books, quiz, book worm, ">
-    <title>Book Worm</title>
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <title>Book Worm </title>
 </head>
 <body>
-    <div class="container styling">
-        <h1>Book Worm QUIZ</h1>
-        <div  class="controls inner"> <!--inner just to let me know that  control is inside -->
-            <button id="start-btn" class="start-btn btn">Start</button>
-        </div>
-    </div>
-
-    <div class="question-container container hide ">
-        <div id="question">question</div>           <!--id without style for js-->
-        <div id="answer-buttons" class="btn-flex">
-            <button class="btn">1</button>
-            <button class="btn">2</button>
-            <button class="btn">3</button>
-            <button class="btn">4</button>
-        </div>
-        <div class="controls">
-            <button id="next-btn" class="next-btn btn " >Next</button>
-            <button id="end-btn" class="end-btn btn hide">End</button>
-        </div>
-    </div>
-
-    <div id="Gamerules"  class="rules-container conntainer hide">
-        <h2>RULES</h2>
-              <p>1.Your answers are irreversible</p>
-              <p>2.There is no way out once you click start</p>
-              <p>3.You can not skip questions</p>
-              <p>4.You will see correct answer immediatly</p>
-              <div class="btn-playy ">
-                <button class="btn-play btn" id="btn-play" >Play</button>
-            </div>
+  <div class="container styling">
+    <h1>Book Worm Quiz</h1>
+    <div class="controls inner">
+        <button id="start-btn" class="start-btn btn">Start</button>
       </div>
+  </div>
 
-    <div class="endContainer conntainer hide">
-        <div class="Congrats">
-            <h2>You finished the quiz</h2>
-            <p>Well done!</p>
-        </div>
-        <div id="newgame-btn" class="newgame">
-            <button id="newgame-btn" class="newgame-btn btn styl">New Game</button>
-        </div>
+  <div  class="question-container conntainer hide">
+    <div id="question"></div>
+    <div id="answer-buttons" class="btn-flex">
+      <button class="btn " id="style">Answer 1</button>
+      <button class="btn  " >Answer 2</button>
+      <button class="btn  " >Answer 3</button>
+      <button class="btn  " >Answer 4</button>
     </div>
-    <footer id="main_footer">
-        <h2>Book Eaters 2022</h2>
-        <div>
-            <a href="https://facebook.com" target="blank" rel="noopener"
+    <div class="controls outer">
+        <button id="end-btn" class="end-btn btn hide">End</button>
+        <button id="next-btn" class="next-btn btn ">Next</button>
+        
+      </div>
+  </div>
+  
+<div id="Gamerules"  class="rules-container conntainer hide">
+  <h2>RULES</h2>
+        <p>1.Your answers are irreversible</p>
+        <p>2.There is no way out once you click start</p>
+        <p>3.You can not skip questions</p>
+        <p>4.You will see correct answer immediatly</p>
+        <div class="btn-playy ">
+          <button class="btn-play btn" id="btn-play" >Play</button>
+      </div>
+</div>
+
+<div class="endContainer conntainer hide ">
+    <div class="Congrats">
+       <h2> You finished the quiz</h2>
+       <p>Well done!</p>
+     </div>
+        <div id="newgame" class="newgame">
+            <button id="newgame-btn" class="newgame-btn btn styl">NewGame</button>
+        </div>
+  </div>
+  
+  <footer id="main_footer">
+    <h2>Book Eaters 2022</h2>
+    <div classs="center">
+        <a href="https://facebook.com" target="blank" rel="noopener"
             aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook-square"></i></a>
 
         <a href="https://twitter.com" target="blank" rel="noopener"
@@ -62,10 +64,10 @@
 
         <a href="https://instagram.com" target="blank" rel="noopener"
             aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-    </footer>
+    </div>
+</footer>
 
-    <script src="https://kit.fontawesome.com/e55919ad1f.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+  <script src="https://kit.fontawesome.com/e55919ad1f.js" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
