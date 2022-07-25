@@ -3,6 +3,8 @@
 *{
     box-sizing: border-box;
     font-family: 'Goudy Bookletter 1911', serif;;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -11,7 +13,6 @@ body {
     background: url("../images/background.webp") no-repeat center center;
     background-size: cover;
     justify-content: center;
-    display: center;
     align-items: center;
     background-color: hsl(var(--hue), 100%, 20%);
   }
@@ -26,4 +27,12 @@ body {
     background: url("../images/card.webp") center center;
     background-size: cover;
     color: white;
+  }
+
+  .styling{
+    box-shadow: 3.6px 7.2px 7.2px hsl(0deg 0% 0% / 39%);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
   }
