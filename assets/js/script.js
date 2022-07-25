@@ -8,7 +8,10 @@ const nextBtn = document.getElementById('next-btn');
 
 startBtn.addEventListener('click', startGame);
 
-
+nextBtn.addEventListener('click', () => {
+    QuestionIndex++;
+    setNextQuestion();
+  });
   
 
 function startGame() {
@@ -19,4 +22,16 @@ function startGame() {
     mixQuestion = questions.sort(() => Math.random() - .5);
     QuestionIndex = 0;
     setNextQuestion();
+}
+
+function  setNextQuestion(){
+
+}
+
+function resetState(){
+
+}
+
+function showQuestion(){
+    
 }
