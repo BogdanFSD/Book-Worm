@@ -12,7 +12,6 @@ body {
     background: url("../images/background.webp") no-repeat center center;
     background-size: cover;
     justify-content: center;
-    display: center;
     align-items: center;
   }
   
