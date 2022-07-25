@@ -60,3 +60,16 @@ body {
     transition: all 0.3s ease;
     border-radius: 10px;
   }
+
+  .btn:hover {
+    background: grey;
+  }
+  
+  .btn.correct {
+    background-color: #0ca635;
+    
+  }
+  
+  .btn.wrong {
+    background-color: #562c2d;
+  }
