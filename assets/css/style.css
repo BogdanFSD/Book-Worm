@@ -127,7 +127,7 @@ body {
 
 .conntainer  {
   width: 90vw;
-    height: 39vh;
+    height: 45vh;
     color: white;
     transition: all 0.3s ease;
     position: absolute;
@@ -228,7 +228,7 @@ body {
         color: white;
         transition: all 0.3s ease;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
@@ -246,7 +246,7 @@ body {
         color: white;
         transition: all 0.3s ease;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
@@ -263,7 +263,7 @@ body {
         color: white;
         transition: all 0.3s ease;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 10px;
@@ -294,7 +294,7 @@ body {
     color: white;
     transition: all 0.3s ease;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 10px;
