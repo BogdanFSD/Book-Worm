@@ -199,7 +199,7 @@ const questions = [
     ]
   },
   {
-      question: 'What is the second Harry Potter book called?',
+      question: ' Second Harry Potter book called?',
       answers: [
         { text: 'Jane Eyre', correct: false },
         { text: 'Oliver Twist', correct: false },
@@ -226,7 +226,7 @@ const questions = [
       ]
     },
     {
-      question: 'Who took pen name as Eric Arthur Blair?',
+      question: 'Pen name as Eric Arthur Blair?',
       answers: [
         { text: 'Mark Twain', correct: false },
         { text: 'George Orwell ', correct: true },
@@ -235,7 +235,7 @@ const questions = [
       ]
     },
     {
-      question: 'Name the first book in the Noughts and Crosses series?',
+      question: 'First book in the Noughts and Crosses ?',
       answers: [
         { text: 'Noughts & Crosses', correct: false },
         { text: 'Knife Edge', correct: false },
@@ -244,7 +244,7 @@ const questions = [
       ]
     },
     {
-        question: 'What was the name of Charles Dickens last book which was left unfinished?',
+        question: 'Last Unfinished book of Charles Dickens ?',
         answers: [
           { text: 'The Old Man of Lochnagar', correct: false },
           { text: 'Oliver Twist', correct: false },
@@ -253,7 +253,7 @@ const questions = [
         ]
     },
     {
-      question: 'Which famous writer said, "A woman is only a woman, but a good cigar is a smoke"?',
+      question: ' "A woman is only a woman, but a good cigar is a smoke"?',
       answers: [
         { text: 'Agatha Christie', correct: false },
         { text: 'Charles Dickens', correct: false },
@@ -262,7 +262,7 @@ const questions = [
       ]
     },
     {
-      question: 'Joanne Harris wrote which book, now made into a hit film starring Johnny Depp and Juliette Binoche?',
+      question: 'Joanne Harris wrote which book, now made into a hit film?',
       answers: [
         { text: 'Blackberry Wine ', correct: false },
         { text: 'Chocolat', correct: true },
@@ -289,7 +289,7 @@ const questions = [
       ]
     },
     {
-      question: 'What was the first book in English to be printed in England?',
+      question: 'First book in English to be printed in England?',
       answers: [
         { text: 'Crime and Punishement ', correct: false },
         { text: 'The Canterbury tales', correct: true },
@@ -316,7 +316,7 @@ const questions = [
       ]
     },
     {
-      question: 'According to Sue Townsend how old was Adrian Mole when he first started writing his diary?',
+      question: 'How old was Adrian Mole when  started writing his diary?',
       answers: [
         { text: '15', correct: false },
         { text: '13', correct: true },
@@ -325,7 +325,7 @@ const questions = [
       ]
     },
     {
-      question: 'Crockfords is a reference book relating to which group of people?',
+      question: 'Crockfords is a reference to which people?',
       answers: [
         { text: 'Punks ', correct: false },
         { text: 'Clergy of the church of England', correct: true },
@@ -334,7 +334,7 @@ const questions = [
       ]
     },
     {
-      question: 'If you were reading a book published by Fodor, what would the subject be?',
+      question: 'What is abou Fodor books?',
       answers: [
         { text: 'Travel ', correct: true },
         { text: 'Painting', correct: false },
