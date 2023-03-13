@@ -158,11 +158,11 @@ Everything starts from landing page where User can find the name of the Quiz and
 
  I would like to add some features later on the the project:
  
- * Want to make shure person can or log in.
+ * Want to make sure person can or log in.
 
- * Displayng the score so people can have some chhallange
+ * Displaying the score so people can have some challenge
 
- * Increase ammout of questoins so user woould be more interested 
+ * Increase ammout of questions so user would be more interested 
 
  [Back to menu](#contents)
 
