@@ -10,7 +10,7 @@
   <title>Book Worm </title>
 </head>
 <body>
-  <div class="container styling">
+  <div id="container_styling" class="container styling">
     <h1>Book Worm Quiz</h1>
     <div class="controls inner">
         <button id="start-btn" class="start-btn btn">Start</button>
@@ -50,7 +50,7 @@
 <div class="endContainer conntainer hide ">
     <div class="Congrats">
        <h2> You finished the quiz</h2>
-       <p>Well done!</p>
+       <p id="presult">Well done!</p>
      </div>
         <div id="newgame" class="newgame">
             <button id="newgame-btn" class="newgame-btn btn styl">NewGame</button>
@@ -58,7 +58,7 @@
   </div>
   
   <footer id="main_footer">
-    <h2>Book Eaters 2022</h2>
+    <h2>&copy; Book Worm <script>document.write(new Date().getFullYear())</script></h2>
     <div class="center">
         <a href="https://facebook.com" target="blank" rel="noopener"
             aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook-square"></i></a>
@@ -73,5 +73,6 @@
 
   <script src="https://kit.fontawesome.com/e55919ad1f.js" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
+  
 </body>
 </html>
